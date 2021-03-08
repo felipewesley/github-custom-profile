@@ -1,0 +1,15 @@
+#header-mobile .spn-toggle-menu-icon {
+    display: flex;
+    float: left;
+    font-size: 32px;
+}
+#header-mobile .spn-github-icon {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+}
+#header-mobile .spn-notifications-icon {
+    display: flex;
+    float: right;
+    font-size: 20px;
+}

@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Icon to navigator tab -->
+	<!-- <link rel="shortcut icon" href="./favicon.png" type="image/x-icon"> -->
+
+    <!-- Responsive control style sheet -->
+    <link rel="stylesheet" href="./css/responsive-control.css">
+
+    <!-- Main style sheet -->
+    <link rel="stylesheet" href="./css/custom-profile-style.css">
+
+    <!-- Mobile format style sheet -->
+    <link rel="stylesheet" href="./css/mobile-style.css">
+
+    <!-- Dark and Light theme -->
+    <link rel="stylesheet" href="./css/profile-themes-style.css">
+    
+    <!-- Properties control of components -->
+    <link rel="stylesheet" href="./css/profile-components-style.css">
+    
+    <!-- Colors control of components (diferent colors for light and dark components) -->
+    <link rel="stylesheet" href="./css/profile-dark-components-style.css">
+    <link rel="stylesheet" href="./css/profile-light-components-style.css">
+    
+    <!-- Script to Font Awesome 5 PRO -->
+    <!-- <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script> -->
+
+    <!-- Link to Font Awesome 4 -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- Page title -->
+    <title>GitHub profile</title>
+</head>
+
+<body class="dark-theme">
+
+    <header class="header-default header-main" id="header-default">
+
+        <span class="static-header-link spn-github-icon">
+            <i class="fa fa-github"></i>
+        </span>
+
+        <input class="header-input-search" type="text" placeholder="Search or jump to...">
+        
+        <div class="div-header-menu-list">
+            <span class="static-header-link header-menu-item">
+                Pull requests
+            </span>
+            <span class="static-header-link header-menu-item">
+                Issues
+            </span>
+            <span class="static-header-link header-menu-item">
+                Marketplace
+            </span>
+            <span class="static-header-link header-menu-item">
+                Explore
+            </span>
+        </div>
+
+        <div class="header-user-controls">
+            <span class="static-header-link spn-user-control" title="See notifications">
+                <i class="fa fa-bell-o"></i>
+            </span>
+            <span class="static-header-link spn-user-control" title="Create a new...">
+                <i class="fa fa-plus"></i>
+            </span>
+            <span class="static-header-link spn-user-profile" title="See user profile">
+                <i class="fa fa-circle-o" id="fa-user-icon"></i>
+                <i class="fa fa-caret-down i-more"></i>
+            </span>
+        </div>
+    </header>
+
+    <header class="header-mobile header-main" id="header-mobile">
+        <span class="static-header-link spn-toggle-menu-icon">
+            <i class="fa fa-bars"></i>
+        </span>
+        <span class="static-header-link spn-github-icon">
+            <i class="fa fa-github"></i>
+        </span>
+        <span class="static-header-link spn-notifications-icon">
+            <i class="fa fa-bell-o"></i>
+        </span>
+    </header>
+    
+    <!-- Include a main JS -->
+    <script src="./js/custom-profile-script.js"></script>
+</body>
+</html>
