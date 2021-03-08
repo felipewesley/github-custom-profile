@@ -1,13 +1,13 @@
 /* Header components */
-.dark-theme header.header-main {
-    background: #3e3e3e;
+.light-theme header.header-main {
+    background: #1a212c;
     color: #fff;
 }
-.dark-theme .static-link {
+.light-theme .static-header-link {
     color: #fff;
     transition: ease-in-out 0.15s;
 }
-.dark-theme .static-link:hover {
+.light-theme .static-header-link:hover {
     filter: contrast(0.5);
     cursor: pointer;
 }
