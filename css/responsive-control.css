@@ -1,9 +1,15 @@
 @media only screen and (min-width : 900px) {
     #header-default { display: flex; }
     #header-mobile { display: none; }
+    #span-toggle-theme { display: flex; }
 }
 
 @media only screen and (max-width : 900px) {
     #header-default { display: none; }
     #header-mobile { display: flex; }
+    #span-toggle-theme { display: none; }
+}
+
+@media only screen and (max-width : 700px) {
+    #navbar-options { display: none; }
 }

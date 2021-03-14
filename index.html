@@ -38,7 +38,7 @@
     <title>GitHub profile</title>
 </head>
 
-<body class="dark-theme">
+<body class="light-theme" data-toggle="light">
 
     <header class="header-default header-main" id="header-default">
 
@@ -84,28 +84,35 @@
         <span class="static-header-link spn-github-icon">
             <i class="fa fa-github"></i>
         </span>
-        <span class="static-header-link spn-notifications-icon">
-            <i class="fa fa-bell-o"></i>
+        <span class="toggle-theme" id="header-span-toggle-theme">
+            <span class="theme-turn-on" light-value="Light theme" dark-value="Dark theme"> </span>
+            <i class="fa fa-toggle-off i-toggle-theme" name="i-toggle-theme" id="i-toggle-theme-header" aria-details="light"></i>
         </span>
     </header>
 
     <nav class="navbar-options" id="navbar-options">
-        <span class="nav-item selected-item">
-            <i class="fa fa-leanpub nav-icon"></i>
-            Overview
-        </span>
-        <span class="nav-item">
-            <i class="fa fa-inbox nav-icon"></i>
-            Repositories
-            <span class="notification-icon" id="icon-repositories-number">12</span>
-        </span>
-        <span class="nav-item">
-            <i class="fa fa-list-alt nav-icon"></i>
-            Projects
-        </span>
-        <span class="nav-item">
-            <i class="fa fa-cube nav-icon"></i>
-            Packages
+        <ul>
+            <li class="nav-item selected-item">
+                <i class="fa fa-leanpub nav-icon"></i>
+                Overview
+            </li>
+            <li class="nav-item">
+                <i class="fa fa-inbox nav-icon"></i>
+                Repositories
+                <span class="notification-icon" id="icon-repositories-number">12</span>
+            </li>
+            <li class="nav-item">
+                <i class="fa fa-list-alt nav-icon"></i>
+                Projects
+            </li>
+            <li class="nav-item">
+                <i class="fa fa-cube nav-icon"></i>
+                Packages
+            </li>
+        </ul>
+        <span class="toggle-theme" id="span-toggle-theme">
+            <span class="theme-turn-on" light-value="Light theme" dark-value="Dark theme"> </span>
+            <i class="fa fa-toggle-off i-toggle-theme" name="i-toggle-theme" id="i-toggle-theme-default" aria-details="light"></i>
         </span>
     </nav>
     

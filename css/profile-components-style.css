@@ -79,29 +79,61 @@ div.header-user-controls span.spn-user-profile > #fa-user-icon {
 
 /* Navbar with menu options */
 nav.navbar-options {
+    display: flex;
     width: 100%;
-    border-bottom: solid 1px #757575;
-    padding: 0 12.5px;
+    min-width: 700px;
+    max-width: 100%;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    padding-top: 15px;
+    padding-right: 12.5px;
+    padding-left: 12.5px;
+    padding-bottom: 3px;
+    box-sizing: border-box;
 }
-nav.navbar-options > .nav-item {
-    display: inline-flex;
+nav.navbar-options ul {
+    display: inline;
+    list-style: none;
+    flex: auto;
+}
+nav.navbar-options .nav-item {
+    display: inline;
     padding: 16px 12.5px;
     margin: 0;
-    box-sizing: border-box;
     transition: ease-in-out 0.15s;
     border-bottom-style: solid;
-    border-bottom-width: 2px;
+    border-bottom-width: 3px;
     border-bottom-color: transparent;
 }
-nav.navbar-options > .nav-item:hover {
+nav.navbar-options .nav-item:hover {
     cursor: pointer;
 }
-nav.navbar-options > .nav-item > .nav-icon {
+nav.navbar-options .nav-item > .nav-icon {
     margin-right: 10px;
 }
-nav.navbar-options > .nav-item > .notification-icon {
+nav.navbar-options .nav-item > .notification-icon {
     padding: 2.5px 5px;
     margin-left: 10px;
     border-radius: 25px;
     font-size: 0.8em;
 }
+
+/* Toggle theme button */
+i[name="i-toggle-theme"] { font-size: 30px; }
+i[name="i-toggle-theme"]:hover { cursor: pointer; }
+
+span.toggle-theme {
+    display: flex;
+    float: right;
+    text-align: center;
+    flex-direction: column;
+}
+span.toggle-theme > .theme-turn-on {
+    font-weight: bold;
+}
+span.toggle-theme > p {
+    display: inline-block;
+    margin: 0;
+}
+span#header-span-toggle-theme { display: flex; box-sizing: border-box; color: #fff; }
+span#header-span-toggle-theme, span#span-toggle-theme > .theme-turn-on { font-size: 12px; }

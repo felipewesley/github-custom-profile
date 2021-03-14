@@ -11,3 +11,28 @@
     filter: contrast(0.5);
     cursor: pointer;
 }
+
+/* Navbar options component */
+.light-theme nav.navbar-options {
+    color: #fff;
+    border-bottom-color: #acacac;
+}
+.light-theme nav.navbar-options .nav-item {
+    color: #000;
+}
+.light-theme nav.navbar-options .nav-item:hover {
+    border-bottom-color: #8f8f8f;
+}
+.light-theme nav.navbar-options .nav-item > .notification-icon {
+    color: #000;
+    background: #ccc;
+}
+.light-theme nav.navbar-options .selected-item {
+    color: #000;
+    font-weight: bold;
+    border-bottom-color: #ff5100 !important;
+}
+
+/* Toggle theme button */
+.light-theme span.toggle-theme > .theme-turn-on::before { content: attr(light-value); }
+.light-theme span.toggle-theme { color: #3e3e3e; }

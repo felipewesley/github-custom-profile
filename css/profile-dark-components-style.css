@@ -15,20 +15,25 @@
 /* Navbar options component */
 .dark-theme nav.navbar-options {
     color: #fff;
+    border-bottom-color: #4d4d4d;
 }
-.dark-theme nav.navbar-options > .nav-item {
+.dark-theme nav.navbar-options .nav-item {
     color: #9c9c9c;
 }
-.dark-theme nav.navbar-options > .nav-item:hover {
+.dark-theme nav.navbar-options .nav-item:hover {
     color: #fff;
     border-bottom-color: #acacac;
 }
-nav.navbar-options > .nav-item > .notification-icon {
+.dark-theme nav.navbar-options .nav-item > .notification-icon {
     color: #b3b3b3;
     background: #3a3944;
 }
-.dark-theme nav.navbar-options > .selected-item {
+.dark-theme nav.navbar-options .selected-item {
     color: #fff;
     font-weight: bold;
     border-bottom-color: #ff5100 !important;
 }
+
+/* Toggle theme button */
+.dark-theme span.toggle-theme > .theme-turn-on::before { content: attr(dark-value); }
+.dark-theme span.toggle-theme { color: #fff; }
