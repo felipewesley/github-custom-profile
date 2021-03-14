@@ -38,11 +38,11 @@
     <title>GitHub profile</title>
 </head>
 
-<body class="light-theme" data-toggle="light">
+<body class="dark-theme" data-toggle="dark">
 
     <header class="header-default header-main" id="header-default">
 
-        <span class="static-header-link spn-github-icon">
+        <span class="static-header-link spn-github-icon" name="btn-to-github">
             <i class="fa fa-github"></i>
         </span>
 
@@ -81,14 +81,42 @@
         <span class="static-header-link spn-toggle-menu-icon">
             <i class="fa fa-bars"></i>
         </span>
-        <span class="static-header-link spn-github-icon">
+        <span class="static-header-link spn-github-icon" name="btn-to-github">
             <i class="fa fa-github"></i>
         </span>
         <span class="toggle-theme" id="header-span-toggle-theme">
-            <span class="theme-turn-on" light-value="Light theme" dark-value="Dark theme"> </span>
-            <i class="fa fa-toggle-off i-toggle-theme" name="i-toggle-theme" id="i-toggle-theme-header" aria-details="light"></i>
+            <span class="theme-turn-on" light-value="Light" dark-value="Dark"></span>
+            <i class="fa fa-toggle-on i-toggle-theme" name="i-toggle-theme" id="i-toggle-theme-header" aria-details="dark"></i>
         </span>
     </header>
+
+    <section id="about-me-mobile" class="about-me">
+        <div class="about-me-header">
+            <div class="profile-picture">
+                <img src="./img/profile.jpeg" alt="Profile picture">
+            </div>
+            <div class="profile-name">
+                <h1 class="name">Felipe Wesley</h1>
+                <p class="username">
+                    <i class="fa fa-at at-icon"></i>&nbsp;felipewesley
+                </p>
+            </div>
+        </div>
+        <div class="about-me-status">
+            <i class="status-label fa fa-check-circle"></i>
+            Status:
+            <span class="status-pill">Estudando</span>
+            <span class="status-pill">Codando</span>
+        </div>
+        <div class="about-me-title">
+            <i class="fa fa-book title-label"></i>
+            <span class="title">Estudante - Análise e desenvolvimento de sistemas</span>
+        </div>
+        <button class="see-profile" name="btn-see-profile">
+            <i class="fa fa-github github-icon"></i>
+            Visualizar perfil no GitHub
+        </button>
+    </section>
 
     <nav class="navbar-options" id="navbar-options">
         <ul>
@@ -111,8 +139,8 @@
             </li>
         </ul>
         <span class="toggle-theme" id="span-toggle-theme">
-            <span class="theme-turn-on" light-value="Light theme" dark-value="Dark theme"> </span>
-            <i class="fa fa-toggle-off i-toggle-theme" name="i-toggle-theme" id="i-toggle-theme-default" aria-details="light"></i>
+            <span class="theme-turn-on" light-value="Light theme" dark-value="Dark theme"></span>
+            <i class="fa fa-toggle-on i-toggle-theme" name="i-toggle-theme" id="i-toggle-theme-default" aria-details="dark"></i>
         </span>
     </nav>
     

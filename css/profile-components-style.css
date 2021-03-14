@@ -93,6 +93,7 @@ nav.navbar-options {
 }
 nav.navbar-options ul {
     display: inline;
+    padding-left: 0;
     list-style: none;
     flex: auto;
 }
@@ -137,3 +138,81 @@ span.toggle-theme > p {
 }
 span#header-span-toggle-theme { display: flex; box-sizing: border-box; color: #fff; }
 span#header-span-toggle-theme, span#span-toggle-theme > .theme-turn-on { font-size: 12px; }
+
+/* About me mobile section */
+#about-me-mobile { flex-direction: column; }
+#about-me-mobile .about-me-header { display: flex; flex-basis: 100%; }
+#about-me-mobile .profile-picture {
+    display: flex;
+    float: left;
+}
+#about-me-mobile .profile-picture img {
+    display: flex;
+    min-width: 50px;
+    width: 25vw;
+    max-width: 125px;
+    border-radius: 150px;
+    border-style: solid;
+    border-width: 1px;
+}
+#about-me-mobile .profile-name {
+    display: flex;
+    float: left;
+    margin-left: 17.5px;
+    flex-direction: column;
+}
+#about-me-mobile .profile-name .name { display: flex; font-size: 22px; letter-spacing: 0.5px;}
+#about-me-mobile .profile-name .username { display: flex; margin: 0; font-size: 18px; letter-spacing: 0.7px;}
+#about-me-mobile .profile-name .username > .at-icon {
+    margin-top: auto;
+    margin-bottom: auto;
+}
+#about-me-mobile .about-me-status {
+    display: flex;
+    margin: 25px 0 12.5px 0;
+    padding: 7.5px 12.5px;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 5px;
+    width: 100%;
+}
+#about-me-mobile .about-me-status .status-label {
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: 7.5px;
+}
+#about-me-mobile .about-me-status .status-pill {
+    border-radius: 10px;
+    padding: 2.5px 7.5px;
+    margin-left: 7.5px;
+    margin-top: auto;
+    margin-bottom: auto;
+    font-size: 0.8em;
+}
+#about-me-mobile .about-me-title .title-label {
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: 7.5px;
+}
+#about-me-mobile .about-me-title .title {
+    font-size: 1.1em;
+    letter-spacing: 0.2px;
+    line-height: 1.5;
+}
+#about-me-mobile .see-profile {
+    display: block;
+    width: 100%;
+    margin: 20px 0 10px 0;
+    text-align: center;
+    padding: 7.5px;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 7.5px;
+    transition: ease-in-out 0.15s;
+}
+#about-me-mobile .see-profile > .github-icon {
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: 7.5px;
+    font-size: 1.2em;
+}

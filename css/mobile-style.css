@@ -13,3 +13,9 @@
     float: right;
     font-size: 20px;
 }
+
+#about-me-mobile {
+    display: flex;
+    padding: 10px 17.5px;
+    /* border: solid 2px red; */
+}

@@ -37,3 +37,29 @@
 /* Toggle theme button */
 .dark-theme span.toggle-theme > .theme-turn-on::before { content: attr(dark-value); }
 .dark-theme span.toggle-theme { color: #fff; }
+
+/* About me section */
+.dark-theme #about-me-mobile {
+    color: #fff;
+}
+.dark-theme #about-me-mobile .profile-picture img { border-color: #d8d8d8; filter: drop-shadow(0px 0px 5px #949494); }
+.dark-theme #about-me-mobile .profile-name .username { color: #a1a1a1; }
+.dark-theme #about-me-mobile .about-me-status {
+    border-color: #6d6d6d;
+    color: #a1a1a1;
+}
+.dark-theme #about-me-mobile .about-me-status .status-label { color: #09ff53; }
+.dark-theme #about-me-mobile .about-me-status .status-pill {
+    background: #50ff85;
+    color: #000;
+}
+.dark-theme #about-me-mobile .about-me-title .title-label { color: #00ffff; }
+.dark-theme #about-me-mobile .see-profile {
+    border-color: #6d6d6d;
+    color: #fff;
+    background: #3e3e3e;
+}
+.dark-theme #about-me-mobile .see-profile:hover {
+    filter: brightness(1.25);
+    cursor: pointer;
+}
